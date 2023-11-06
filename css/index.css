@@ -1,7 +1,3 @@
-.logo {
-  width: 260px;
-}
-
 :root {
   --main-bakcground-colour: rgb(0, 0, 0);
   --navbar-colour: rgb(225, 214, 214);
@@ -11,15 +7,14 @@ body {
   background: var(--main-bakcground-colour);
   padding: 0;
   margin: 20px;
-  color: var(--navbar-colour)
+  color: var(--navbar-colour);
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+
+.logo {
+  width: 260px;
 }
+
 
 nav ul li {
   display: inline-block;
@@ -34,10 +29,9 @@ li a {
   font-family: "Courier New", Courier, monospace;
 }
 .navbar-toggler-icon {
-background-color: var(--navbar-colour)
-
+  background-color: var(--navbar-colour);
 }
-.nav-item{
+.nav-item {
   color: var(--navbar-colour) !important;
 }
 
@@ -47,10 +41,9 @@ a:hover {
 
 .card {
   background-color: var(--navbar-colour) !important;
-  text-decoration: none !important
-
-}
-a{
   text-decoration: none !important;
-  color:black
+}
+a {
+  text-decoration: none !important;
+  color: black;
 }
