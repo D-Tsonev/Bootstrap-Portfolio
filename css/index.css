@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&family=Space+Grotesk&display=swap");
+
 :root {
   --main-bakcground-colour: rgb(0, 0, 0);
   --navbar-colour: rgb(225, 214, 214);
@@ -47,3 +49,11 @@ a {
   text-decoration: none !important;
   color: black;
 }
+h1 {
+  font-family: "Source Code Pro", monospace;
+  margin-top: 70px;
+  padding-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
