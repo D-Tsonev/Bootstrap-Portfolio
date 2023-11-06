@@ -2,3 +2,55 @@
   width: 260px;
 }
 
+:root {
+  --main-bakcground-colour: rgb(0, 0, 0);
+  --navbar-colour: rgb(225, 214, 214);
+}
+
+body {
+  background: var(--main-bakcground-colour);
+  padding: 0;
+  margin: 20px;
+  color: var(--navbar-colour)
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 25px 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--navbar-colour) !important;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-toggler-icon {
+background-color: var(--navbar-colour)
+
+}
+.nav-item{
+  color: var(--navbar-colour) !important;
+}
+
+a:hover {
+  color: #0e7474 !important;
+}
+
+.card {
+  background-color: var(--navbar-colour) !important;
+  text-decoration: none !important
+
+}
+a{
+  text-decoration: none !important;
+  color:black
+}
